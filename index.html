@@ -4,16 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
-    <!-- We want to load boostrap first before our external CSS file -->
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
-    <!-- Then, we load our custom external CSS main.css file when rendering our webpage (Order matters!) We want our rules to override the ones from Bootstrap, not the other way around-->
+
     <link rel="stylesheet" href="styles/style.css" />
   </head>
+
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
@@ -54,16 +55,131 @@
         </div>
       </div>
     </nav>
-    <main style="background-color: rgb(216, 187, 19)">
-      <br />
-      <section></section>
-      <section style="background-color: white">
-        <p style="text-align: center">Hello, this is my paragraph.</p>
+
+    <main>
+      <section class="container py-5 text-center">
+        <h1 class="display-4">Hi, I’m Timothy Criss Jr.</h1>
+
+        <p class="lead mt-3">
+          Master’s student in Computer Science at the Arlington, Virginia campus at Northeastern University. I begin as an ALIGN student and now exploring software engineering,
+          systems, cybersecurity, database management systems, and web development.
+        </p>
+
+        <div class="mt-4">
+          <a href="./about-me.html" class="btn btn-dark me-2">About Me</a>
+          <a href="./resume.html" class="btn btn-outline-dark me-2">Resume</a>
+
+          <a
+            href="https://www.linkedin.com/in/timothy-criss-jr"
+            target="_blank"
+            class="btn btn-primary me-2"
+          >
+            LinkedIn
+          </a>
+
+          <a
+            href="https://github.com/crisst330"
+            target="_blank"
+            class="btn btn-secondary"
+          >
+            GitHub
+          </a>
+        </div>
       </section>
-      <br />
+
+      <section class="container py-5">
+        <h2 class="text-center mb-4">What I’m Currently Learning</h2>
+
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body">
+                <h5 class="card-title">Software Engineering</h5>
+                <p class="card-text">
+                  Building foundational knowledge in software design,
+                  object-oriented programming, and collaborative development.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body">
+                <h5 class="card-title">Web Development</h5>
+                <p class="card-text">
+                  Developing responsive websites using HTML, CSS, JavaScript,
+                  Bootstrap, and modern web development concepts.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body">
+                <h5 class="card-title">Systems & Linux</h5>
+                <p class="card-text">
+                  Expanding experience with Linux environments, system concepts,
+                  scripting, and technical problem-solving.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container py-5 learning-journey">
+        <h2 class="text-center mb-5">Learning Journey</h2>
+
+        <div class="row text-center g-4">
+          <div class="col-md-2">
+            <h5>2017</h5>
+            <p>Arlington High School Graduation</p>
+          </div>
+
+          <div class="col-md-2">
+            <h5>2017–2020</h5>
+            <p>Division I Track & Field Athlete</p>
+          </div>
+
+          <div class="col-md-2">
+            <h5>2021</h5>
+            <p>BSBA in Information Systems Management</p>
+          </div>
+
+          <div class="col-md-2">
+            <h5>2023</h5>
+            <p>Began MSCS at Northeastern University</p>
+          </div>
+
+          <div class="col-md-2">
+            <h5>2024</h5>
+            <p>Completed Introductory AI Literacy Program</p>
+          </div>
+
+          <div class="col-md-2">
+            <h5>Present</h5>
+            <p>Studying Web Development & Software Engineering</p>
+          </div>
+        </div>
+      </section>
     </main>
 
-    <footer>&copy; 2026 Timothy Criss Jr. All rights reserved.</footer>
+    <footer class="text-center p-3">
+      <p>&copy; 2026 Timothy Criss Jr. All rights reserved.</p>
+
+      <a
+        href="https://www.linkedin.com/in/timothy-criss-jr"
+        target="_blank"
+        class="me-3"
+      >
+        LinkedIn
+      </a>
+
+      <a href="https://github.com/crisst330" target="_blank">GitHub</a>
+    </footer>
+
     <script type="module" src="js/main.js"></script>
   </body>
 </html>
