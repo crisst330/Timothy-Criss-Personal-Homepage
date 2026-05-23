@@ -71,6 +71,22 @@ section {
   color: #495057;
 }
 
+.clock-card {
+  max-width: 28rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+  background-color: #c1d7f2;
+  border: 0.0625rem solid #e9e105;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1.25rem rgba(0, 0, 0, 0.08);
+}
+
+.clock-card p {
+  color: #495057;
+  font-weight: 600;
+}
+
 .btn {
   border-radius: 0.5rem;
   font-weight: 600;
