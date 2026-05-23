@@ -6,6 +6,7 @@ function updateClock() {
   const now = new Date();
   const hour = now.getHours();
 
+  // Default greeting value (can change later)
   let greeting = "Welcome";
 
   if (hour < 12) {
