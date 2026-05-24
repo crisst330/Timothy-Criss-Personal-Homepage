@@ -1,3 +1,4 @@
+// Get element by Id's for the clock card event handling attributes
 const greetingText = document.getElementById("greetingText");
 const timeText = document.getElementById("timeText");
 const dateText = document.getElementById("dateText");
