@@ -146,6 +146,7 @@ This project uses several Bootstrap 5 components, templates, and utility classes
 
 Created by [Timothy Criss Jr](https://github.com/crisst330).
 
+---
 
 ## Class Reference Link
 
@@ -164,8 +165,6 @@ Add your project video demonstration link here before submitting:
 ```text
 https://youtu.be/your-video-link
 ```
-
----
 
 ---
 
