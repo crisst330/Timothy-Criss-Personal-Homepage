@@ -18,7 +18,7 @@ This project was created as a CS5610 Web Development assignment.
 
 ---
 
-## Screenshot
+## Screenshot (Gif) of Webpages
 ![alt text](images/demo-personal-website-ezgif.com-video-to-gif-converter.gif)
 
 ---
@@ -163,7 +163,7 @@ Course reference:
 Add your project video demonstration link here before submitting:
 
 ```text
-https://youtu.be/your-video-link
+https://youtu.be/OJbLOV9sq0Q?si=Y-0sCvu97GoKmyf3
 ```
 
 ---
