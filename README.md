@@ -2,7 +2,7 @@
 
 ## Project Objective
 
-The goal of Project 1 was to design and develop a professional personal website while demonstrating foundational front-end web development concepts, proficiency, and software engineering practices during the learning process of this course and assignment.
+The goal of the project was to design and develop a professional personal website while demonstrating foundational front-end web development concepts, proficiency, and software engineering practices during the learning process of this course and assignment.
 
 The application uses:
 - HTML5 
