@@ -141,6 +141,7 @@ This project uses several Bootstrap 5 components, templates, and utility classes
 - Spacing utilities
 - Responsive layout utilities
 
+---
 
 ## Author
 
@@ -159,8 +160,6 @@ Course reference:
 ---
 
 ## Video Demonstration
-
-Add your project video demonstration link here before submitting:
 
 ```text
 https://youtu.be/OJbLOV9sq0Q?si=Y-0sCvu97GoKmyf3
