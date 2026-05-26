@@ -15,7 +15,7 @@ The application uses:
 - Git and GitHub workflow practices
 
 This project was created as a CS5610 Web Development assignment.
-
+ 
 ---
 
 ## Screenshot (Gif) of Webpages
@@ -219,6 +219,8 @@ Help me create a professional README.md file structure for a responsive multi-pa
 ```
 
 ---
+
+### Google Slides Presentation, Two Minute video before Demo presentation, Thumbnail Link <-- Priamos
 
 ## License
 
