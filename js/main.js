@@ -2,7 +2,7 @@
 const greetingText = document.getElementById("greetingText");
 const timeText = document.getElementById("timeText");
 const dateText = document.getElementById("dateText");
-
+ 
 function updateClock() {
   const now = new Date();
   const hour = now.getHours();
